@@ -99,6 +99,7 @@ class CircleArray {
 		arr[rear] = n;
 		//将 rear 后移, 这里必须考虑取模
 		rear = (rear + 1) % maxSize;
+		System.out.println(rear);
 	}
 	
 	// 获取队列的数据, 出队列
